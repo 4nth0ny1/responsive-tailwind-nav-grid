@@ -33,12 +33,24 @@ export default function App() {
       </div>
       {!openMobileNav && (
         <div className="p-4 min-h-[calc(100vh-80px)] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          <div className="bg-gray-400 video"></div>
-          <div className="bg-gray-400 video"></div>
-          <div className="bg-gray-400 video"></div>
-          <div className="bg-gray-400 video"></div>
-          <div className="bg-gray-400 video"></div>
-          <div className="bg-gray-400 video"></div>
+          <div className="bg-gray-400 w-full h-full">
+            sadfasfsdafsaffdsafafasdfsad asdfsadfasdfsafsadfsadfsad
+            asdfdsafsadfasdfsafdfsafasfasfasfsda
+            dsafsdafasdsadfadfsadfsadfasfsafsad asdfsadfasfsadfsdafsafsafasasd
+            sadfsafsadsfsafsdafasdf asdfsadfsdasadfsadfsda sadfsadfsadfsadfsadf
+            asfdasdfsadfasfsadfdsa asdfsadfasdfsdfa
+          </div>
+          <div className="bg-gray-400  w-full h-full"></div>
+          <div className="bg-gray-400  w-full h-full"></div>
+          <div className="bg-gray-400  w-full h-full"></div>
+          <div className="bg-gray-400  w-full h-full">
+            <img
+              src="./image-one.jpg"
+              alt="image-one"
+              className="w-full h-full"
+            />
+          </div>
+          <div className="bg-gray-400  w-full h-full"></div>
         </div>
       )}
     </>
